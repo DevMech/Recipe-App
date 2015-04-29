@@ -19,6 +19,9 @@
 		71F67B6C192C8D6A00E609F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67B54192C8D6A00E609F1 /* UIKit.framework */; };
 		71F67B74192C8D6A00E609F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71F67B72192C8D6A00E609F1 /* InfoPlist.strings */; };
 		71F67B76192C8D6A00E609F1 /* Recipe_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67B75192C8D6A00E609F1 /* Recipe_AppTests.m */; };
+		7DC415BB1AF16AEE00781327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC415BA1AF16AEE00781327 /* ViewController.m */; };
+		7DC415BE1AF16F2E00781327 /* RARecipesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC415BD1AF16F2E00781327 /* RARecipesTableViewDataSource.m */; };
+		7DC415C11AF1701400781327 /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC415C01AF1701400781327 /* RARecipes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		71F67B71192C8D6A00E609F1 /* Recipe AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe AppTests-Info.plist"; sourceTree = "<group>"; };
 		71F67B73192C8D6A00E609F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71F67B75192C8D6A00E609F1 /* Recipe_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_AppTests.m; sourceTree = "<group>"; };
+		7DC415B91AF16AEE00781327 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		7DC415BA1AF16AEE00781327 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		7DC415BC1AF16F2E00781327 /* RARecipesTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipesTableViewDataSource.h; sourceTree = "<group>"; };
+		7DC415BD1AF16F2E00781327 /* RARecipesTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipesTableViewDataSource.m; sourceTree = "<group>"; };
+		7DC415BF1AF1701400781327 /* RARecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipes.h; sourceTree = "<group>"; };
+		7DC415C01AF1701400781327 /* RARecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				71F67B5F192C8D6A00E609F1 /* RAAppDelegate.h */,
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
+				7DC415B91AF16AEE00781327 /* ViewController.h */,
+				7DC415BA1AF16AEE00781327 /* ViewController.m */,
+				7DC415BC1AF16F2E00781327 /* RARecipesTableViewDataSource.h */,
+				7DC415BD1AF16F2E00781327 /* RARecipesTableViewDataSource.m */,
+				7DC415BF1AF1701400781327 /* RARecipes.h */,
+				7DC415C01AF1701400781327 /* RARecipes.m */,
 				71F67B62192C8D6A00E609F1 /* Images.xcassets */,
 				71F67B57192C8D6A00E609F1 /* Supporting Files */,
 			);
@@ -240,6 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC415BB1AF16AEE00781327 /* ViewController.m in Sources */,
+				7DC415BE1AF16F2E00781327 /* RARecipesTableViewDataSource.m in Sources */,
+				7DC415C11AF1701400781327 /* RARecipes.m in Sources */,
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
 			);
@@ -438,6 +456,7 @@
 				71F67B7B192C8D6A00E609F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F67B7C192C8D6A00E609F1 /* Build configuration list for PBXNativeTarget "Recipe AppTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +465,7 @@
 				71F67B7E192C8D6A00E609F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
